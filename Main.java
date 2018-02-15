@@ -8,7 +8,8 @@ public class Main{
 		b = dat.nextInt();
 		while(b<=0){
 		System.out.println("No puedes ingresar numeros negativos");
-		b = dat-nextInt();		}
+		b = dat.nextInt();
+		}
 		for(i=1; i<(b+1); i++){
 			if(b%i==0){
 			con++;
